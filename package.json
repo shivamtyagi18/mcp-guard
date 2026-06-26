@@ -1,0 +1,27 @@
+{
+  "name": "mcp-guard",
+  "version": "0.1.0",
+  "description": "Local Firewall & Security Proxy for AI Agents (Model Context Protocol)",
+  "type": "module",
+  "main": "bin/mcp-guard.js",
+  "bin": {
+    "mcp-guard": "./bin/mcp-guard.js"
+  },
+  "scripts": {
+    "start": "node bin/mcp-guard.js",
+    "test": "node test/run-tests.js"
+  },
+  "keywords": [
+    "mcp",
+    "security",
+    "firewall",
+    "proxy",
+    "json-rpc",
+    "cursor",
+    "claude"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
